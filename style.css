@@ -301,3 +301,22 @@ color:#cfe2ff;
 .login-menu a:visited{
 color:white;
 }
+.profile-panel h3{
+margin-top:20px;
+color:#0b3d91;
+}
+
+.profile-panel label{
+display:block;
+margin-top:10px;
+font-weight:bold;
+}
+
+.profile-panel input,
+.profile-panel select{
+width:100%;
+padding:10px;
+margin-top:5px;
+border:1px solid #ccc;
+border-radius:6px;
+}

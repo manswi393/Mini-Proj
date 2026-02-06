@@ -3,9 +3,9 @@
 <head>
 <title>Smart Energy Meter</title>
 <link rel="stylesheet" href="style.css">
-</head>
 
-<body>
+<body onload="checkLogin()">
+
 
 <!-- HEADER -->
 <header>
@@ -28,7 +28,9 @@
 
 <ul class="login-menu">
 <li><a href="login.html">Login</a></li>
-<li>Sign Out</li>
+
+<li onclick="logout()">Sign Out</li>
+
 <li onclick="openProfile()">Profile</li>
 <li>Help</li>
 

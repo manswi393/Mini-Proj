@@ -32,3 +32,8 @@ window.location.href="login.html";
 }
 
 }
+function logout() {
+    localStorage.removeItem("user");   // remove login data
+    alert("You have been signed out");
+    window.location.href = "login.html"; // go back to login page
+} 

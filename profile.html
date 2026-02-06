@@ -1,0 +1,36 @@
+<input id="name" placeholder="Full Name">
+<input id="email" placeholder="Email ID">
+<input id="phone" placeholder="Phone Number">
+<input id="address" placeholder="Address">
+<input id="city" placeholder="City">
+<input id="meter" placeholder="Consumer / Meter ID">
+
+<select id="consumerType">
+<option>Home</option>
+<option>Shop</option>
+<option>Industry</option>
+<option>Office</option>
+</select>
+
+<input id="load" placeholder="Connected Load (kW)">
+<input id="units" placeholder="Average Monthly Units">
+<input id="appliances" placeholder="Appliances Count">
+
+<select id="peak">
+<option>Morning</option>
+<option>Afternoon</option>
+<option>Evening</option>
+<option>Night</option>
+</select>
+
+<select id="tariff">
+<option>Domestic</option>
+<option>Commercial</option>
+<option>Industrial</option>
+</select>
+
+<button onclick="saveProfile()">Save</button>
+<button onclick="editProfile()">Edit</button>
+<button onclick="deleteProfile()">Delete</button>
+
+<div id="profileDisplay"></div>

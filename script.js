@@ -22,3 +22,13 @@ document.getElementById("loginSidebar").classList.add("active");
 function closeLogin(){
 document.getElementById("loginSidebar").classList.remove("active");
 }
+function checkLogin(){
+
+let user=localStorage.getItem("loggedIn");
+
+if(!user){
+alert("Please login first");
+window.location.href="login.html";
+}
+
+}

@@ -12,11 +12,10 @@
 <div class="menu-icon" onclick="toggleMenu()">☰</div>
 <h1 class="title">SMART ENERGY METER</h1>
 
-<div class="login-box" onclick="openProfile()">Login Info</div>
+<!-- ONLY ONE LOGIN BUTTON -->
 <div class="login-box" onclick="openLogin()">Login Info</div>
 
 </header>
-
 
 <!-- LOGIN SIDEBAR -->
 <div id="loginSidebar" class="login-sidebar">
@@ -28,8 +27,9 @@
 </div>
 
 <ul class="login-menu">
-<li>Login</li>
+<li><a href="login.html">Login</a></li>
 <li>Sign Out</li>
+<li onclick="openProfile()">Profile</li>
 <li>Help</li>
 
 <li>
@@ -44,7 +44,6 @@ Language:
 </ul>
 
 </div>
-
 
 <!-- PROFILE PANEL -->
 <div id="profile" class="profile-panel">
@@ -75,24 +74,18 @@ Language:
 <!-- CONTENT -->
 <div class="content">
 
-<!-- HOME -->
 <div id="home" class="page active">
-
 <h2>Smart Energy Meter</h2>
-
 <p>
 Smart Energy Meter is an intelligent web system that monitors electricity usage,
 tracks consumption patterns and predicts future power load using machine learning.
 The system helps users reduce electricity wastage, analyze daily energy usage
 and make smart decisions to save electricity and reduce cost.
 </p>
-
 </div>
 
-<!-- ABOUT -->
 <div id="about" class="page">
-
-<h2>About Smart Energy Meter</h2>
+<h2>About Our Mini Project</h2>
 
 <p>
 Electricity plays a vital role in modern life. Every home, industry and
@@ -104,61 +97,32 @@ higher bills and environmental damage.
 <p>
 Our Smart Energy Meter project is developed to monitor electricity usage
 and provide intelligent prediction using machine learning technology.
-The system helps users understand their energy consumption behavior
-and promotes energy conservation awareness.
 </p>
 
 <p>
-This mini project is developed by:
+Developed by:
 <br> Pinak Sapre
 <br> Shreeya Prapte
 <br> Manswi Ajankar
 </p>
-
-<p>
-The main objective of this project is to provide a digital platform
-where users can monitor electricity consumption, visualize energy data,
-analyze load patterns and predict future electricity usage trends.
-</p>
-
-<p>
-Energy conservation is the need of the future. Smart monitoring systems
-like our project help in reducing electricity wastage, lowering power cost
-and protecting natural resources.
-</p>
-
 </div>
 
-<!-- DASHBOARD -->
 <div id="dashboard" class="page">
-
 <h2>Energy Dashboard</h2>
-
 <p>Energy usage data and statistics will be displayed here.</p>
-
 </div>
 
-<!-- LOAD PREDICTION -->
 <div id="prediction" class="page">
-
 <h2>Load Prediction</h2>
-
 <canvas id="loadChart"></canvas>
-
 </div>
 
-<!-- FUTURE FORECAST -->
 <div id="forecast" class="page">
-
 <h2>Future Forecast Graph</h2>
-
 <canvas id="forecastChart"></canvas>
-
 </div>
 
-<!-- CONTACT -->
 <div id="contact" class="page">
-
 <h2>Contact Us</h2>
 
 <p>Pinak Sapre - pinaksapre@gmail.com - 9657641258</p>
@@ -171,9 +135,7 @@ and protecting natural resources.
 </div>
 
 <footer>
-
 <p>Smart Energy Meter Mini Project © 2026</p>
-
 </footer>
 
 <script src="script.js"></script>
